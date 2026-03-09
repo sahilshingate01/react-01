@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import Content1 from "./Content1"
+import Card from "./Card"
 
 const Section1 = () => {
     return (
