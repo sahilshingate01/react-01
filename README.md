@@ -1,16 +1,96 @@
-# React + Vite
+# 🏦 FinSeg - Digital Banking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://finseg.vercel.app/)
 
-Currently, two official plugins are available:
+**FinSeg** (Financial Segmentation) is a modern, high-performance landing page for a digital banking platform. It features a sophisticated customer segmentation interface that helps financial institutions understand and target their audience based on banking access and levels of satisfaction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [finseg.vercel.app](https://finseg.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Prospective Customer Segmentation:** Clear categorization of potential users into three distinct groups:
+  - **Satisfied:** Customers with full access to digital banking services.
+  - **Underserved:** Customers with limited access to banking products.
+  - **Underbanked:** Customers with little or no access to formal banking.
+- **Premium UI/UX:** Clean, minimalist design with a professional aesthetic, high-quality imagery, and smooth transitions.
+- **Responsive Design:** Optimized for all screen sizes, ensuring a seamless experience across desktop, tablet, and mobile.
+- **Modern Tech Stack:** Built with the latest versions of React and Tailwind CSS for speed and maintainability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite 7](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/) & [Remix Icon](https://remixicon.com/)
+- **Platform:** [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── component/        # Reusable UI components
+│   ├── Section1/     # Navbar, Hero text, and Segment Cards
+│   └── Section2/     # Bottom section content
+├── assets/           # Static assets and images
+├── App.jsx           # Main application entry point
+├── main.jsx          # React DOM rendering
+└── index.css         # Global styles & Tailwind configuration
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/finseg.git
+   cd finseg
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌐 Deployment
+
+The project is automatically deployed via Vercel. You can view the latest version here:
+👉 **[https://finseg.vercel.app/](https://finseg.vercel.app/)**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Developed with ❤️ for the modern financial world.
